@@ -1,0 +1,10 @@
+# starlark-lsp.yaml
+name: Starlark
+description: Starlark lsp
+languages:
+  - Go
+categories:
+  - Lsp
+
+bin:
+  starlark-lsp: "tilt lsp start"
